@@ -197,6 +197,10 @@
       "ozoneCovid19Treatment": {
         "title": "COVID-19 davolashda ozondan potentsial foydalanish",
         "excerpt": "ISCO3 ning SARS-CoV-2 uchun qo'shimcha terapiya sifatida ozon terapiyasi bo'yicha rasmiy ekspert xulosasi: dezinfeksiya, ta'sir mexanizmlari, klinik protokollar."
+      },
+      "ozoneBakeryConfectionery": {
+        "title": "Non va qandolat ishlab chiqarishida ozon",
+        "excerpt": "Non zavodlari va qandolat fabrikalari mog'orga qarshi ozonni qanday qo'llaydi: sovitish va qadoqlash zonalaridagi havo, un va kakao-loviyalarni ishlash, uskunalar uchun ozonlangan suv. Tadqiqot ma'lumotlari va FDA maqomi."
       }
     }
   },

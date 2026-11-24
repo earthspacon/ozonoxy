@@ -1,0 +1,91 @@
+{
+  "title": "Ozone in Bakery and Confectionery Production",
+  "excerpt": "How bakeries and confectionery plants use ozone against mould: cooling and packing air, flour treatment, cocoa beans, ozonated water for trays and moulds. Research data and FDA status.",
+  "sections": {
+    "losses": "Where bakery products pick up mould",
+    "coolingAir": "Air in cooling, slicing and packing zones",
+    "flour": "Flour and raw materials",
+    "confectionery": "Cocoa, chocolate and sugar products",
+    "water": "Ozonated water for equipment",
+    "industry": "Industry practice",
+    "safety": "Regulation and safe use",
+    "conclusion": "Conclusion"
+  },
+  "body": {
+    "lead": "Bread, buns, cookies, chocolate and candies are made from different recipes, but they share one problem: mould. In bakery literature, spoilage by xerophilic moulds of the genera Eurotium, Aspergillus and Penicillium is estimated at 1–5% of output. For a plant making tens of tonnes a day, that is a steady loss of product, returns and complaints. Ozone is one of the tools manufacturers and researchers use to cut these losses without leaving chemical residues: it breaks down into oxygen.",
+    "losses1": "Baking itself kills mould spores. A loaf or a bun leaves the oven practically free of them. The contamination happens later, when the product cools, is sliced and is packed. Spores arrive with the air, settle on conveyors, slicer blades, trays and packaging film, and the warm, moist product gives them good conditions to grow.",
+    "losses2": "This is why the fight against mould in a bakery is mostly about the air and surfaces after the oven, not about the recipe. Preservatives and modified-atmosphere packaging help, but they work on a product that has already been contaminated.",
+    "coolingAir1": "The Italian trade magazine Pastaria points to the cooling system, a spiral or belt cooler, as the main place where products are recontaminated after baking or pasteurization. Large volumes of air are blown over the product there, and every spore in that air can end up on its surface.",
+    "coolingAir2": "Washing and fogging with liquid disinfectants cleans surfaces but does not treat the air itself. An ozone generator installed next to the cooler treats the air that flows over the product, and gas sensors keep the concentration in the working area within safe limits.",
+    "coolingAir3": "A second mode is shock treatment of empty rooms: proofing rooms, coolers, packing halls and raw-material stores are treated with a high concentration of ozone during a shutdown or at night, then ventilated before staff return. The gas reaches corners, ducts and gaps under equipment that are hard to clean by hand.",
+    "flour1": "Ozone has been studied as a flour treatment as an alternative to chlorination. A team from Jiangnan University (Obadi et al., 2018) treated wheat flour with ozone gas for 5 to 45 minutes. The 15-minute treatment gave bread with higher specific volume, better colour and a finer crumb structure, and during storage that bread hardened more slowly. The authors conclude that ozone can serve as a flour oxidant in place of chlorination and can extend the shelf life of bread.",
+    "flour2": "The University of Rzeszów (Balawejder et al., 2026) measured the microbiology. After treatment at 30 ppm for 30 minutes, total aerobic bacteria fell about eightfold and yeasts and moulds more than twentyfold. Lactic acid bacteria were not affected. The same dose made the bread firmer and lowered its sensory score, so the authors recommend milder dosing. The practical point: ozone works on flour, but the dose has to be tuned for each product.",
+    "flourTableCaption": "Wheat flour before and after ozone treatment, 30 ppm for 30 minutes (Balawejder et al., 2026)",
+    "confectionery1": "In confectionery the main risk is in raw materials. Cocoa beans are fermented and dried in the open and often carry moulds, including the toxin-producing Aspergillus flavus. Researchers at the Federal University of Santa Catarina (Kreibich et al., 2016) treated inoculated cocoa beans with ozone gas. At 60 µmol/mol for 180 minutes, A. flavus counts fell by 86.8% immediately and by 100% after 30 days of storage. Bean moisture dropped from 6.7% to 6.1%, and no lipid oxidation was found.",
+    "confectionery2": "Sugar changes the picture. Newcastle University (Antony-Babu and Singleton, 2011) worked with Eurotium amstelodami, a mould isolated from naan bread. A low background concentration of ozone suppressed spore formation only on media without sucrose; with sugar present the mould was protected. Full loss of spore viability needed 300 µmol/mol for 120 minutes. For chocolate, candies, fillings and sugary cookies this means a weak permanent ozone level is not enough: the real effect comes from high-dose treatment of empty rooms and raw-material stores.",
+    "water1": "Ozone dissolved in water is used to clean surfaces that touch the product. It acts quickly, leaves no residue and needs no rinsing, which matters where a chlorine taste or smell is unacceptable. Typical uses:",
+    "industry1": "Flour milling is one of the first areas where ozone moved from the laboratory into plants. The trade journal World Grain notes that chlorine gas is dangerous to handle and that a growing number of millers treat flour and tempering water with ozone instead.",
+    "industry2": "Salutaguse Pärmitehas, a yeast plant of the Lallemand group that makes about 9,000 tonnes of yeast a year for bakery, beverage and food customers, runs an Ozonetech RENA Tellus X600 ozone system with a scrubber on 27,000 m³/h of exhaust air. According to the supplier's reference report, odour fell by 94%, neighbour complaints stopped, and no bacteria grew in the scrubber effluent.",
+    "safety1": "In the United States, ozone was declared GRAS (Generally Recognized As Safe) for food use by an expert panel convened by EPRI in 1997. In 2001 the FDA approved it as an antimicrobial agent for the treatment, storage and processing of foods, in gas and in water (21 CFR 173.368). Ozone is produced on site from air or oxygen and decomposes back into oxygen, so it leaves no residue in the product.",
+    "safety2": "Ozone is safe for the product, but not for people at high concentrations. High-dose treatment is done only in empty rooms. Where ozone runs while staff are present, such as near a cooler, the system needs gas sensors, interlocks and a fixed concentration setpoint. Ozone also oxidizes rubber and some plastics, so seals and conveyor belts should be checked for compatibility.",
+    "conclusion": "For bakeries and confectionery plants ozone does not replace hygiene, recipes or packaging, but it covers the spot they miss: the air and surfaces between the oven and the pack. Research shows an effect on flour, cocoa beans and mould spores, and FDA status allows direct food contact. Doses have to be matched to the product, especially sugary ones, and staff safety comes first."
+  },
+  "highlightLosses": "Mould does not come from the oven. It comes from the air and surfaces the product touches after baking.",
+  "highlightSafety": "High concentrations are used only in rooms without people. After treatment the room is ventilated, and ozone breaks down into oxygen.",
+  "flourTable": {
+    "headers": ["Indicator", "Untreated flour", "After ozone"],
+    "rows": [
+      ["Total aerobic bacteria, CFU/g", "1.4 × 10⁵", "1.7 × 10⁴"],
+      ["Yeasts and moulds, CFU/g", "2.8 × 10³", "1.3 × 10²"],
+      ["Lactic acid bacteria", "no change", "no change"],
+      ["Bread hardness, N", "53.42", "68.06"],
+      ["Sensory score", "3.74", "3.04"]
+    ]
+  },
+  "waterItems": [
+    "baking trays, pans and chocolate moulds",
+    "conveyor belts and slicer blades",
+    "dough mixers, hoppers and work tables",
+    "closed cleaning of pipes and tanks (CIP) in cream, filling and syrup lines",
+    "crates and containers for finished products"
+  ],
+  "sourcesTitle": "Sources",
+  "sources": [
+    {
+      "title": "Obadi M., Zhu K.X., Peng W. et al. Shelf life characteristics of bread produced from ozonated wheat flour. Journal of Texture Studies, 2018, 49(5):492–502",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29131335/"
+    },
+    {
+      "title": "Balawejder M., Antos P., Kołcz G. et al. Influence of the Wheat Flour Ozonation Process on Its Microbial Status and the Sensory and Mechanical Properties of Bakery Products. Applied Sciences, 2026, 16(10):5119",
+      "url": "https://www.mdpi.com/2076-3417/16/10/5119"
+    },
+    {
+      "title": "Antony-Babu S., Singleton I. Effects of ozone exposure on the xerophilic fungus, Eurotium amstelodami IS-SAB-01, isolated from naan bread. International Journal of Food Microbiology, 2011, 144(3):331–336",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21093088/"
+    },
+    {
+      "title": "Kreibich H.H., Christ D., Silva J. et al. Antifungal efficiency of ozone on cocoa beans (Theobroma cocoa) inoculated with Aspergillus flavus. Proceedings of CAF2016, pp. 229–234",
+      "url": "http://ftic.co.il/2016NewDelhiPDF/PP229-234-A042-SESSION04.pdf"
+    },
+    {
+      "title": "Pastaria. The mold on bakery food and pasta is a matter of the air quality, 2020",
+      "url": "https://pastaria.it/the-mold-on-the-bakery-food-and-pasta-is-a-matter-of-the-air-quality/?lang=en"
+    },
+    {
+      "title": "World Grain. Ozone use in flour milling",
+      "url": "https://www.world-grain.com/articles/10189-ozone-use-in-flour-milling"
+    },
+    {
+      "title": "Mellifiq. Reference project: Salutaguse Pärmitehas",
+      "url": "https://mellifiq.com/wp-content/uploads/Mellifiq-Reference-Project-Salutaguse-Parmitehas-v.1.1.pdf"
+    },
+    {
+      "title": "U.S. Code of Federal Regulations, 21 CFR 173.368 — Ozone",
+      "url": "https://www.law.cornell.edu/cfr/text/21/173.368"
+    },
+    {
+      "title": "IFT. Confronting Myths About Ozone and Food Safety",
+      "url": "https://ift.org/food-technology-magazine/confronting-myths-about-ozone-and-food-safety"
+    }
+  ]
+}

@@ -73,6 +73,10 @@
     "aqueousOzonePoultry": {
       "title": "Parrandachilikda ozonlangan suv: ichimlik suvi, bioplyonka va qayta ishlash",
       "excerpt": "Parranda fabrikasida ozonlangan suvni qo'llash: ichimlik suvini zararsizlantirish, ichirish liniyalaridagi bioplyonkaga qarshi kurash, tuxumni yuvish va tanalarga ishlov berish. Dozalar, tajriba natijalari, FDA va USDA talablari, iqtisodiy samara."
+    },
+    "ozoneBakeryConfectionery": {
+      "title": "Non va qandolat ishlab chiqarishida ozon",
+      "excerpt": "Non zavodlari va qandolat fabrikalari mog'orga qarshi ozonni qanday qo'llaydi: sovitish va qadoqlash zonalaridagi havo, un va kakao-loviyalarni ishlash, uskunalar uchun ozonlangan suv. Tadqiqot ma'lumotlari va FDA maqomi."
     }
   }
 }

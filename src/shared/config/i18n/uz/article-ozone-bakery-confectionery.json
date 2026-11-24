@@ -1,0 +1,91 @@
+{
+  "title": "Non va qandolat ishlab chiqarishida ozon",
+  "excerpt": "Non zavodlari va qandolat fabrikalari mog'orga qarshi ozonni qanday qo'llaydi: sovitish va qadoqlash zonalaridagi havo, un va kakao-loviyalarni ishlash, laganlar va qoliplar uchun ozonlangan suv. Tadqiqot ma'lumotlari va FDA maqomi.",
+  "sections": {
+    "losses": "Pishiriqlarga mog'or qayerdan tushadi",
+    "coolingAir": "Sovitish, kesish va qadoqlash zonalaridagi havo",
+    "flour": "Un va xomashyo",
+    "confectionery": "Kakao, shokolad va shakarli mahsulotlar",
+    "water": "Uskunalar uchun ozonlangan suv",
+    "industry": "Sohadagi amaliyot",
+    "safety": "Me'yorlar va xavfsiz qo'llash",
+    "conclusion": "Xulosa"
+  },
+  "body": {
+    "lead": "Non, bulochka, pechene, shokolad va konfetlar turli retseptlar bo'yicha tayyorlanadi, lekin ularning muammosi bitta: mog'or. Soha adabiyotida Eurotium, Aspergillus va Penicillium turkumiga mansub kserofil mog'orlar sababli non mahsulotlarining yo'qotilishi ishlab chiqarishning 1–5% qismi deb baholanadi. Sutkasiga o'nlab tonna mahsulot chiqaradigan zavod uchun bu doimiy yo'qotish, qaytarilgan mahsulot va shikoyatlar demakdir. Ozon ishlab chiqaruvchilar va tadqiqotchilar bu yo'qotishlarni kimyoviy qoldiqsiz kamaytirish uchun foydalanadigan vositalardan biri: u kislorodga parchalanadi.",
+    "losses1": "Pishirish jarayonining o'zi mog'or sporalarini o'ldiradi. Baton yoki bulochka pechdan deyarli sporasiz chiqadi. Zararlanish keyinroq, mahsulot soviyotganda, kesilayotganda va qadoqlanayotganda sodir bo'ladi. Sporalar havo bilan keladi, konveyerlar, slayser pichoqlari, laganlar va qadoqlash plyonkasiga o'tiradi, iliq va nam mahsulot esa ularning o'sishi uchun qulay sharoit yaratadi.",
+    "losses2": "Shuning uchun non zavodida mog'orga qarshi kurash avvalo retseptura emas, balki pechdan keyingi havo va sirtlar bilan bog'liq. Konservantlar va modifikatsiyalangan atmosferada qadoqlash yordam beradi, lekin ular allaqachon zararlangan mahsulot bilan ishlaydi.",
+    "coolingAir1": "Italiyaning Pastaria soha jurnali sovitish tizimini, ya'ni spiral yoki lentali sovitgichni, pishirish yoki pasterizatsiyadan keyin mahsulot qayta zararlanadigan asosiy joy deb ataydi. U orqali katta hajmdagi havo haydaladi va shu havodagi har qanday spora mahsulot yuzasiga tushishi mumkin.",
+    "coolingAir2": "Suyuq dezinfeksiya vositalari bilan yuvish va tuman purkash sirtlarni tozalaydi, lekin havoning o'zini ishlamaydi. Sovitgich yoniga o'rnatilgan ozon generatori mahsulotni puflaydigan havoni ishlaydi, gaz datchiklari esa ish zonasidagi konsentratsiyani xavfsiz chegarada ushlab turadi.",
+    "coolingAir3": "Ikkinchi rejim — bo'sh xonalarni zarba usulida ishlash: xamir yetiltirish kameralari, sovitgichlar, qadoqlash sexlari va xomashyo omborlari to'xtash vaqtida yoki tunda yuqori konsentratsiyali ozon bilan ishlanadi, so'ng xodimlar qaytguncha shamollatiladi. Gaz qo'lda tozalash qiyin bo'lgan burchaklar, havo o'tkazgichlar va uskunalar ostidagi tirqishlarga ham yetib boradi.",
+    "flour1": "Ozon unni xlorlashga muqobil ishlash usuli sifatida o'rganilmoqda. Tszyannan universiteti guruhi (Obadi et al., 2018) bug'doy unini gazsimon ozon bilan 5 daqiqadan 45 daqiqagacha ishladi. 15 daqiqalik ishlov solishtirma hajmi kattaroq, rangi yaxshiroq va mag'zi mayda g'ovakli non berdi, saqlash davomida esa bunday non sekinroq qotdi. Mualliflar ozon xlorlash o'rniga un oksidlovchisi bo'la olishi va nonning saqlash muddatini uzaytirishi mumkin degan xulosaga kelgan.",
+    "flour2": "Jeshuv universiteti (Balawejder et al., 2026) mikrobiologik ko'rsatkichlarni o'lchadi. 30 ppm konsentratsiyada 30 daqiqa ishlovdan so'ng aerob bakteriyalarning umumiy soni taxminan sakkiz baravar, achitqi va mog'orlar esa yigirma baravardan ko'proq kamaydi. Sut kislotasi bakteriyalari o'zgarmadi. Xuddi shu doza nonni qattiqroq qildi va organoleptik bahoni pasaytirdi, shuning uchun mualliflar yumshoqroq rejimni tavsiya qiladi. Amaliy xulosa: ozon unda ishlaydi, lekin dozani har bir mahsulotga moslab tanlash kerak.",
+    "flourTableCaption": "Ozon bilan ishlashdan oldin va keyin bug'doy uni, 30 ppm, 30 daqiqa (Balawejder et al., 2026)",
+    "confectionery1": "Qandolat ishlab chiqarishida asosiy xavf xomashyoda. Kakao-loviyalar ochiq havoda fermentatsiya qilinadi va quritiladi, ularda ko'pincha mog'orlar, jumladan toksin hosil qiluvchi Aspergillus flavus bo'ladi. Santa-Katarina federal universiteti tadqiqotchilari (Kreibich et al., 2016) zararlangan kakao-loviyalarni gazsimon ozon bilan ishladi. 60 µmol/mol konsentratsiyada 180 daqiqa ishlovda A. flavus soni darhol 86,8% ga, 30 kunlik saqlashdan keyin esa 100% ga kamaydi. Loviyalar namligi 6,7% dan 6,1% gacha tushdi, lipidlar oksidlanishi aniqlanmadi.",
+    "confectionery2": "Shakar vaziyatni o'zgartiradi. Nyukasl universitetida (Antony-Babu and Singleton, 2011) non lepyoshkasidan ajratib olingan Eurotium amstelodami mog'ori bilan ishlashdi. Past fon konsentratsiyadagi ozon spora hosil bo'lishini faqat saxarozasiz muhitda bostirdi, shakar bo'lganda esa mog'or himoyalangan bo'lib chiqdi. Sporalarning hayotchanligini to'liq yo'qotish uchun 120 daqiqa davomida 300 µmol/mol kerak bo'ldi. Shokolad, konfet, nachinka va shirin pechene uchun bu shuni anglatadiki, ozonning past doimiy darajasi yetarli emas: haqiqiy natijani bo'sh xonalar va xomashyo omborlarini yuqori konsentratsiya bilan ishlash beradi.",
+    "water1": "Suvda eritilgan ozon mahsulot bilan tegadigan sirtlarni ishlash uchun qo'llaniladi. U tez ta'sir qiladi, qoldiq qoldirmaydi va chayishni talab qilmaydi, bu xlor ta'mi va hidi bo'lishi mumkin bo'lmagan joylarda muhim. Odatiy qo'llanishlar:",
+    "industry1": "Un tortish sanoati ozon laboratoriyadan ishlab chiqarishga o'tgan birinchi sohalardan biri. World Grain soha jurnali gazsimon xlor bilan ishlash xavfli ekanini va tobora ko'proq tegirmonlar un hamda donni namlash uchun ishlatiladigan suvni ozon bilan ishlayotganini qayd etadi.",
+    "industry2": "Lallemand guruhiga qarashli Salutaguse Pärmitehas achitqi zavodi yiliga taxminan 9000 tonna achitqi ishlab chiqaradi va uni non, ichimlik va oziq-ovqat korxonalariga yetkazadi. Zavodda soatiga 27 000 m³ chiqindi havoni ishlaydigan skrubberli Ozonetech RENA Tellus X600 ozon tizimi ishlaydi. Yetkazib beruvchining referens hisobotiga ko'ra, hid 94% ga kamaydi, qo'shnilarning shikoyatlari to'xtadi, skrubber oqova suvida esa bakteriyalar o'smaydi.",
+    "safety1": "AQShda ozon 1997-yilda EPRI tomonidan chaqirilgan ekspertlar guruhi tomonidan oziq-ovqatda qo'llash uchun GRAS (Generally Recognized As Safe — umumiy e'tirof etilgan xavfsiz) deb tan olingan. 2001-yilda FDA uni oziq-ovqat mahsulotlarini ishlash, saqlash va qayta ishlash uchun gaz va suv holatida antimikrob vosita sifatida ruxsat berdi (21 CFR 173.368). Ozon joyida havo yoki kisloroddan olinadi va yana kislorodga parchalanadi, shuning uchun mahsulotda qoldiq qoldirmaydi.",
+    "safety2": "Ozon mahsulot uchun xavfsiz, lekin yuqori konsentratsiyada odamlar uchun xavfli. Yuqori konsentratsiyali ishlov faqat bo'sh xonalarda o'tkaziladi. Ozon xodimlar ishtirokida ishlaydigan joylarda, masalan sovitgich yonida, gaz datchiklari, blokirovkalar va belgilangan konsentratsiya kerak. Ozon rezina va ayrim plastiklarni ham oksidlaydi, shuning uchun zichlagichlar va konveyer lentalarini moslikka tekshirish kerak.",
+    "conclusion": "Non zavodlari va qandolat fabrikalari uchun ozon gigiyena, retseptura va qadoqlashning o'rnini bosmaydi, lekin ular qamrab olmaydigan qismni yopadi: pech bilan qadoq orasidagi havo va sirtlar. Tadqiqotlar un, kakao-loviyalar va mog'or sporalarida natija borligini ko'rsatadi, FDA maqomi esa oziq-ovqat bilan bevosita aloqaga ruxsat beradi. Dozani mahsulotga, ayniqsa shakarli mahsulotga moslab tanlash kerak, xodimlar xavfsizligi esa birinchi o'rinda turadi."
+  },
+  "highlightLosses": "Mog'or pechda paydo bo'lmaydi. Uning manbai — pishirishdan keyin mahsulot tegadigan havo va sirtlar.",
+  "highlightSafety": "Yuqori konsentratsiyalar faqat odamlar yo'q xonalarda qo'llaniladi. Ishlovdan keyin xona shamollatiladi, ozon esa kislorodga parchalanadi.",
+  "flourTable": {
+    "headers": ["Ko'rsatkich", "Ishlanmagan un", "Ozondan keyin"],
+    "rows": [
+      ["Aerob bakteriyalarning umumiy soni, KHB/g", "1,4 × 10⁵", "1,7 × 10⁴"],
+      ["Achitqi va mog'orlar, KHB/g", "2,8 × 10³", "1,3 × 10²"],
+      ["Sut kislotasi bakteriyalari", "o'zgarishsiz", "o'zgarishsiz"],
+      ["Non qattiqligi, N", "53,42", "68,06"],
+      ["Organoleptik baho", "3,74", "3,04"]
+    ]
+  },
+  "waterItems": [
+    "laganlar, non qoliplari va shokolad qoliplari",
+    "konveyer lentalari va slayser pichoqlari",
+    "xamir qorgichlar, bunkerlar va ish stollari",
+    "krem, nachinka va sirop liniyalarida quvur va idishlarni qismlarga ajratmasdan yuvish (CIP)",
+    "tayyor mahsulot uchun lotoklar va idishlar"
+  ],
+  "sourcesTitle": "Manbalar",
+  "sources": [
+    {
+      "title": "Obadi M., Zhu K.X., Peng W. et al. Shelf life characteristics of bread produced from ozonated wheat flour. Journal of Texture Studies, 2018, 49(5):492–502",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29131335/"
+    },
+    {
+      "title": "Balawejder M., Antos P., Kołcz G. et al. Influence of the Wheat Flour Ozonation Process on Its Microbial Status and the Sensory and Mechanical Properties of Bakery Products. Applied Sciences, 2026, 16(10):5119",
+      "url": "https://www.mdpi.com/2076-3417/16/10/5119"
+    },
+    {
+      "title": "Antony-Babu S., Singleton I. Effects of ozone exposure on the xerophilic fungus, Eurotium amstelodami IS-SAB-01, isolated from naan bread. International Journal of Food Microbiology, 2011, 144(3):331–336",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21093088/"
+    },
+    {
+      "title": "Kreibich H.H., Christ D., Silva J. et al. Antifungal efficiency of ozone on cocoa beans (Theobroma cocoa) inoculated with Aspergillus flavus. Proceedings of CAF2016, pp. 229–234",
+      "url": "http://ftic.co.il/2016NewDelhiPDF/PP229-234-A042-SESSION04.pdf"
+    },
+    {
+      "title": "Pastaria. The mold on bakery food and pasta is a matter of the air quality, 2020",
+      "url": "https://pastaria.it/the-mold-on-the-bakery-food-and-pasta-is-a-matter-of-the-air-quality/?lang=en"
+    },
+    {
+      "title": "World Grain. Ozone use in flour milling",
+      "url": "https://www.world-grain.com/articles/10189-ozone-use-in-flour-milling"
+    },
+    {
+      "title": "Mellifiq. Reference project: Salutaguse Pärmitehas",
+      "url": "https://mellifiq.com/wp-content/uploads/Mellifiq-Reference-Project-Salutaguse-Parmitehas-v.1.1.pdf"
+    },
+    {
+      "title": "U.S. Code of Federal Regulations, 21 CFR 173.368 — Ozone",
+      "url": "https://www.law.cornell.edu/cfr/text/21/173.368"
+    },
+    {
+      "title": "IFT. Confronting Myths About Ozone and Food Safety",
+      "url": "https://ift.org/food-technology-magazine/confronting-myths-about-ozone-and-food-safety"
+    }
+  ]
+}

@@ -156,16 +156,24 @@ export const ARTICLES: ArticleMeta[] = [
     sourceName: 'Scientific review: Ozone applications in food storage and meat preservation',
     sourceUrl: '',
   },
+  {
+    id: 'ozoneBakeryConfectionery',
+    slug: 'ozone-bakery-confectionery',
+    image: 'https://images.unsplash.com/photo-1703607888337-aae6d77b3d83?w=800&q=80',
+    date: '2026-11-22',
+    sourceName: 'Review of studies: ozone in bakery and confectionery production',
+    sourceUrl: '',
+  },
 ]
 
 // Article IDs shown on home page (6 most important), in order
 export const HOME_ARTICLE_IDS = [
+  'ozoneBakeryConfectionery',
   'ozoneFoodWarehouseMeat',
   'ozoneFoodInteraction',
   'ozoneGrainProtection',
   'concentratedOzoneAgriculture',
   'ozoneVirusDisinfection',
-  'ozoneCovid19Treatment',
 ] as const
 
 export function getArticleById(id: string): ArticleMeta | undefined {

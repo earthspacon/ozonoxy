@@ -73,6 +73,10 @@
     "aqueousOzonePoultry": {
       "title": "Ozonated water in poultry farming: drinking water, biofilm and processing",
       "excerpt": "What ozonated water provides on a poultry farm: clean water in the drinkers, control of biofilm in the drinker lines, egg washing and carcass treatment. Doses, trial results, FDA and USDA requirements, economics."
+    },
+    "ozoneBakeryConfectionery": {
+      "title": "Ozone in Bakery and Confectionery Production",
+      "excerpt": "How bakeries and confectionery plants use ozone against mould: cooling and packing air, flour and cocoa bean treatment, ozonated water for equipment. Research data and FDA status."
     }
   }
 }
