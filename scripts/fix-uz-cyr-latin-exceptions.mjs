@@ -18,7 +18,8 @@ const REPLACEMENTS = [
   ['ИСCО3', 'ISCO3'],
   ['(ЕПА)', '(EPA)'],
   ['ИАРC', 'IARC'],
-  ['О3СС', 'O3CC'],
+  ['О3СС', 'O3SS'],
+  ['O3CC', 'O3SS'],
   ['ГСҲ', 'GSH'],
   ['Cу-Ал', 'Cu-Al'],
   ['CФА', 'CFA'],
@@ -40,8 +41,10 @@ const REPLACEMENTS = [
   ['йоур@емаил.cом', 'siz@email.uz'],
   ['попcорн', 'попкорн'],
   ['Cамемберт', 'Камамбер'],
-  ['Cрйптоспоридиум', 'Криптоспоридиум'],
-  ['Асcоспҳаера апис', 'Аскосфера апис'],
+  ['Cрйптоспоридиум', 'Cryptosporidium'],
+  ['Криптоспоридиум', 'Cryptosporidium'],
+  ['Асcоспҳаера апис', 'Ascosphaera apis'],
+  ['Аскосфера апис', 'Ascosphaera apis'],
   ['Шоwер', 'Душ'],
   ['Реcогнизед ас Сафе', 'Recognized as Safe'],
   ['Елеcтриc Поwер', 'Electric Power'],
@@ -50,14 +53,59 @@ const REPLACEMENTS = [
   ['озонатсийа', 'озонация'],
 ]
 
+// English words that uz keeps as is, turned into whole-word Cyrillic nonsense by the converter
+const WORD_REPLACEMENTS = [
+  ['Озоне', 'Озон'],
+  ['озоне', 'озон'],
+  ['Пурдуе', 'Purdue'],
+  ['ВНИКҲИ', 'ВНИХИ'],
+  ['Росселкҳознадзор', 'Россельхознадзор'],
+  ['Брие', 'Бри'],
+  ['Роқуефорт', 'Рокфор'],
+  ['Ёгурт', 'Йогурт'],
+  ['ёгурт', 'йогурт'],
+  ['ёга', 'йога'],
+  ['Ехпресс', 'Экспресс'],
+  ['детаилинг', 'детейлинг'],
+  ['дегассинг', 'дегазация'],
+  ['сорптион', 'сорбция'],
+  ['ҳазард', 'хавф'],
+  ['слимй', 'шилимшиқ'],
+  ['Молд', 'Моғор'],
+  ['Поре', 'Ғовак'],
+  ['реҳеат', 'қайта иситиш'],
+  ['уреа', 'мочевина'],
+  ['сеалинг', 'герметизация'],
+  ['полишинг', 'полировка'],
+  ['Периодонтитис', 'Периодонтит'],
+  ['Монтреал', 'Монреаль'],
+  ['Лас Вегас', 'Лас-Вегас'],
+  ['ИИИ', 'III'],
+  ['ИИ', 'II'],
+  ['мг/Л', 'мг/л'],
+  ['мкг/Л', 'мкг/л'],
+  ['μг/Л', 'мкг/л'],
+  ['μм', 'мкм'],
+  ['мЖ/cm', 'mJ/cm'],
+]
+
+const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
 const files = fs.readdirSync(UZ_CYR_DIR).filter((f) => f.endsWith('.json'))
 let total = 0
 for (const file of files) {
   const filePath = path.join(UZ_CYR_DIR, file)
   let content = fs.readFileSync(filePath, 'utf-8')
   let count = 0
-  for (const [from, to] of REPLACEMENTS) {
-    const re = new RegExp(from.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')
+  const rules = [
+    ...REPLACEMENTS.map(([from, to]) => [new RegExp(escapeRegExp(from), 'g'), to]),
+    // a word boundary also right after a "\n" escape in the raw JSON
+    ...WORD_REPLACEMENTS.map(([from, to]) => [
+      new RegExp(`(?:(?<=\\\\n)|(?<!\\p{L}))${escapeRegExp(from)}(?!\\p{L})`, 'gu'),
+      to,
+    ]),
+  ]
+  for (const [re, to] of rules) {
     const newContent = content.replace(re, to)
     if (newContent !== content) {
       count += (content.match(re) || []).length

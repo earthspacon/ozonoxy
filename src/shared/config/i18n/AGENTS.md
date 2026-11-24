@@ -210,9 +210,14 @@ All new JSON must use **arrays** for ordered collections. Object format is legac
 
 ### Uzbek Cyrillic (uz-cyr)
 
-- **Russian-style Cyrillic** — use я, ё, ю (NOT йа, йо, йу)
-- Loanwords from Russian keep **Russian spelling**: дезинфекция, технология, препарат
-- Uzbek words also use я/ё/ю for natural reading: тиббиёт (not тиббийот)
+- **Russian-style Cyrillic** — use я, ё, ю (NOT йа, йо, йу): тиббиёт, not тиббийот
+- Loanwords keep the **Russian spelling**, the way the ru file writes them:
+  - **ц, not тс**: дезинфекция, концентрация, рецепт, бактерицид (тс stays only where a stem in т meets an Uzbek suffix: кетса, ўтсин)
+  - **ь** as in Russian: фильтр, сульфат, альтернатива, нефть. Before an Uzbek suffix it stays if the suffix starts with a consonant (нефтьни, модельлар, мебельдан, модельлаштириш, Биофильтрлаш) and drops before a vowel (модели, мебелинг). One stem, one spelling across all files: if ru writes the stem with ь anywhere (мебель, фильтр, параллель), every uz-cyr form keeps it
+  - **э at the start of a word and after a vowel**: экология, электр, эмас, эса, аэрация; Russian words spelled with е keep е (Европа, гигиена)
+- The Uzbek tutuq (ʼ) is **ъ**: эътибор, таъсир, объект
+- Some uz sources drop the y of «ye» (etarli, erda, etkazib); in uz-cyr these are **е**: етарли, ерда, етказиб
+- Gate: `node .agents/checks/uz-cyr-russian-spelling.mjs` (`--list` shows every hit); fixer: `node scripts/fix-uz-cyr-spelling.mjs`, then `pnpm exec prettier --write` on the touched files
 - **Only Cyrillic** in translatable content
 - **Allowed Latin exceptions:** brand names (OZONOXY, FDA, USDA), scientific names (E. coli, Salmonella), abbreviations (HVAC, SARS-CoV-2), units (mg/m³, ppm, °C)
 

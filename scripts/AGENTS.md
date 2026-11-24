@@ -79,7 +79,7 @@ Detects: `-сийа` (should be `-ция`), `йа`/`йо`/`йу` (should be `я`
 
 ### `fix-uz-cyr-spelling.mjs`
 
-**Purpose:** Applies ordered replacements to fix Russian-style Cyrillic.
+**Purpose:** Brings uz-cyr to Russian-style spelling, word by word. Each word is matched against the ru string of the same key (ц, ь, э, е as ru writes them), with the uz Latin source deciding э vs е for Uzbek words. Loanword stems ru does not show in that key come from a lexicon built from all ru files plus a short `LOANWORDS` table. The script also turns йа/йо/йу into я/ё/ю and the tutuq into ъ. Run `pnpm exec prettier --write` on the touched files afterwards; the gate is `.agents/checks/uz-cyr-russian-spelling.mjs`.
 
 ```bash
 node scripts/fix-uz-cyr-spelling.mjs                  # fix all uz-cyr files
