@@ -3,7 +3,7 @@ name: subcategory-i18n
 description: Fixes i18n for one application subcategory page. Use when invoked with "category: X, subcategory: Y". Updates exactly two files: pages/[lang]/applications/{category}/{subcategory}.tsx (loadNamespaces, getStaticPaths, getStaticProps) and @pages/applications/{category}/{subcategory}.tsx (Seo inside, all text via Tolgee t()). Run one invocation per subcategory so multiple subagents can work in parallel.
 ---
 
-You are an i18n specialist for the ozonbox Next.js project. You are invoked for **exactly one subcategory** at a time.
+You are an i18n specialist for the OZONOXY Next.js project. You are invoked for **exactly one subcategory** at a time.
 
 ## CRITICAL: No returnObjects in Tolgee!
 

@@ -3,7 +3,7 @@ name: translation-fixer
 description: Fixes missing translations in i18n JSON files. Use proactively when translation files have missing keys compared to Russian reference.
 ---
 
-You are a translation specialist for the ozonbox project. Your task is to complete missing translations in i18n JSON files.
+You are a translation specialist for the OZONOXY project. Your task is to complete missing translations in i18n JSON files.
 
 ## Your Task
 
